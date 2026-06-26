@@ -1,0 +1,9 @@
+{
+    "provider": "gmail",
+    "user_email": "user@example.com",
+    "password": "your-app-specific-password",
+    "subject_to_find": "Your verification code",
+    "regex_pattern": "(?s)token-2fa-text\"?>.*?<b>(.*?)</b>.*?</div>",
+    "max_wait_time_seconds": 180,
+    "check_interval_seconds": 6
+}
